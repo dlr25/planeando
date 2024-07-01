@@ -1,0 +1,33 @@
+*** FRONT-END ***
+-** Actualizar "Registro" (done 02/04)
+-** Actualizar "Perfil" (done 02/04)
+-** Actualizar "Crear Plan" (done 02/04)
+- Actualizar "Página Principal" (done a falta de los textos 02/04)
+-** Crear "Buscar Plan" (done 03/04)
+-** Crear "Página de plan" (done 03/04)
+- Cambiar nombre de la webapp y el logo
+
+*** BASE DE DATOS ***
+- Añadir campo "Imagen" a "Plan" y "Usuario" investigando cómo (o darle una vuelta)
+-** Añadir las 12 categorías (done 04/04)
+-** Crear nueva versión del diagrama Entidad-Relación (done 04/04)
+-** Añadir los campos "Titulo", "Descripcion breve" y "Plazas" a la tabla "PLAN" (done 03/04)
+- Añadir "cantidad de planes realizados" (hace falta añadir campo o con una consulta sale?)
+- Añadir "cantidad de planes apuntados" (hace falta añadir campo o con una consulta sale?)
+
+*** BACK-END ***
+-** Saber conectar la BD al front mediante el back y mostrar un campo de una tabla (done 03/04)
+-** Añadir un usuario a la BD (done 04/04)
+- Mostrar los datos en el perfil del usuario
+- Añadir un plan a la BD
+- Iterar sobre los planes y que salgan en la búsqueda de planes
+- Crear el funcionamiento de inicio de sesión:
+	- Que un usuario sin iniciar sesión le lleve todo a "Iniciar Sesión"
+	- Cambiar el header de la pestaña principal según se ha iniciado sesión o no
+- Crear la relación entre usuario y categoría (y plan y categoría) al señalar las categorías
+
+TABLA PAÍS: Spain (1)
+TABLA CIUDAD: Alicante (1, Spain)
+TABLA CATEGORIA: Ingenieria (1) y Ciencia (2)
+TABLA USUARIO: Javier Prades Rodas (1, Alicante)
+TABLA PLAN: VISITA GUIADA A SANTA BARBARA (1, Alicante, Javier)
